@@ -36,13 +36,21 @@ It implements RISC-V Instruction as show below
 
 Run Instruction
 addi x5, x0, 20 # x5 = x0 + 20
+
 addi x6, x0, 35 # x6 = x0 + 35
+
 addi x7, x0, 49 # x7 = x0 + 49
+
 add x5, x6, x7 # x5 = x6 + x7
+
 sw x5, 0(x0)
+
 sw x6, 4(x0)
+
 sw x7, 8(x0)
+
 lw x7, 0(x0)
+
 jal x1, -16
 
 ![image](https://github.com/Benson890105/Simple_RISCV_CPU/blob/riscv1.0/image/Simulation_log.jpg)
