@@ -1,6 +1,6 @@
 `timescale 1ns/1ps
 
-module tb_riscv (
+module tb_riscv_top (
     
 );
     reg clk;
@@ -8,7 +8,7 @@ module tb_riscv (
     wire [31:0] PC;
     wire [31:0] ins;
 
-    riscv uut (
+    riscv_top uut (
         .clk(clk),
         .reset(reset),
         .PC(PC),
@@ -18,7 +18,7 @@ module tb_riscv (
     always #5 clk = ~clk;
     initial begin
         $dumpfile("riscv.vcd");
-        $dumpvars(0, tb_riscv);
+        $dumpvars(0, tb_riscv_top);
         $monitor("PC = 0x%h, Instruction = %b", PC, ins);
         clk = 0;
         reset = 0;
