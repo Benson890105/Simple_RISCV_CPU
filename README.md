@@ -8,7 +8,7 @@ This single cycle RISC-V CPU is RV32, it only implement a part of RISC-V ISA int
 ![image](https://github.com/Benson890105/Simple_RISCV_CPU/blob/riscv1.0/image/RISC-V%20Processor%20Architecture.jpg)
 
 It implements RISC-V Instruction as show below
-| Category      | Instruction     | Example     | Meaning     | binary     |
+| Category      | Instruction     | Example     | Meaning     |
 | ---------- | :-----------:  | :-----------: | :-----------: |
 | R-Type     | add      | add x5, x6, x7      | x5 = x6 + x7     |
 | R-Type     | sub      | sub x28, x29, x30   | x28 = x29 - x30  |
