@@ -31,3 +31,7 @@ It implements RISC-V Instruction as show below
 | B-Type     | blt     | blt x5, x6, 100      | if(x5<x6) go to PC + 100      |  0000011_00110_00101_100_00100_1100011      |
 | B-Type     | bge     | bqe x5, x6, 100      | if(x5>=x6) go to PC + 100     |  0000011_00110_00101_101_00100_1100011      |
 | J-Type     | jal     | jal x1, -16          | x1 = PC + 4; go to PC-32     |  11111110000111111111_00001_1101111      |
+
+## Simulation Single Cycle RISC-V CPU
+
+
