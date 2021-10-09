@@ -34,4 +34,4 @@ It implements RISC-V Instruction as show below
 
 ## Simulation Single Cycle RISC-V CPU
 
-
+![image](https://github.com/Benson890105/Simple_RISCV_CPU/blob/riscv1.0/image/Simulation_log.jpg)
