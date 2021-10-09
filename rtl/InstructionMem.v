@@ -9,6 +9,6 @@ module InstructionMem (
     assign Instruction = Mem[Instruction_address / 32'h4];
 
     initial begin
-        $readmemb("data.txt", Mem);
+        $readmemb("Instruction_data.txt", Mem);
     end
 endmodule
